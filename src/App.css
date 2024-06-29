@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* ----------------LOGIN Y REGISTRO-------------*/
+.contenedor-principal{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+}
+
+.contenedor-formulario{
+    border: solid 2px black;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    /*flex: 1;*/
+    justify-content: center;
+    background-image: url("../public/images/fondoInicio.jpg");
+}
+
+form{
+    border: solid 2px black;
+    background-color: black;
+    width: 40%;
+    min-height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: .85;
+    border-radius: 10px;
+}
+
+h2{
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+input{
+    width: 60%;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-registrar{
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 100px;
+    width: 50%;
+    min-height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.btn-login{
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 100px;
+    width: 50%;
+    min-height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.contenedor-footer{
+    color: white;
+}
+
+
+/* ----------------PAGINA PRINCIPAL-------------*/
+.contenedor-principal-main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contenedor-nav-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../public/images/thor.jfif");
+    background-size: cover;
+    
+}
+
+.nav-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 120px;
+}
+
+.nav-section-1-main{
+    width: 50%;
+    display: flex;
+}
+
+.logo-nav-main{
+    width: 50%;
+}
+
+.li-peliculas-main{
+    width: 25%;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.li-peliculas-main:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.li-canjear-puntos-main{
+    width: 25%;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.li-canjear-puntos-main:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.nav-section-2-main{
+    width: 30%;
+    align-content: center;
+}
+
+.search{
+    width: 90%;
+    min-height: 25px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align:start;
+    padding-left: 10px;
+}
+
+.nav-section-3-main{
+    width: 20%;
+    align-content: center;
+    text-align: center;
+}
+
+.p-usuario-main{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.p-cerrar-sesion-main{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.p-cerrar-sesion-main:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.caja-info-peli-destacada-main{
+    width: 100%;
+    min-height: 416px;
+}
+
+.info-peli-destacada-main{
+    width: 40%;
+}
+
+.nombre-pelicula-main{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.botones-nav-main{
+    width: 100%;
+    display: flex;
+    
+}
+
+.btn-reproducir-main{
+    width: 50%;
+    border: solid 2px gray;
+    border-radius: 15px;
+    color: black;
+    min-height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bolder;
+}
+.iconoBoton{
+    margin-right: 10px;
+}
+
+.btn-reproducir-main:hover{
+    color: white;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.btn-mi-lista-main{
+    width: 50%;
+    border: solid 2px gray;
+    border-radius: 15px;
+    color: white;
+    background-color: gray;
+    min-height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.btn-mi-lista-main:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.descripcion-pelicula-main{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.iframe-contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contenedor-mi-lista-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    padding-top: 20px;
+}
+
+.h2-lista-main{
+    color: white;
+    font-size: 30px;
+}
+
+.mi-lista-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja-mi-pelicula-main{
+    width: 22%;
+    min-height: 226px;
+    /*border: solid 2px black;*/
+    margin-left: 20px;
+    text-align: center;
+}
+
+.caja-mi-pelicula-main:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.contenedor-peliculas-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));;
+    min-height: 100vh;
+    
+}
+
+.h2-lista-peliculas-main{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+
+.lista-peliculas-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.caja-lista-pelicula-main{
+    width: 22%;
+    min-height: 226px;
+    /*border: solid 2px black;*/
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.caja-lista-pelicula-main:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.img-movie{
+    width: 80%;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.p-nombre-pelicula{
+    color: white;
+}
+
+.contenedor-footer{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+    align-content: center;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* CHAT BOT*/
+
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .chatbot-header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .chatbot-header button:hover{
+    background: gray;
+    color: white;
+  }
+  
+  .chatbot-body {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .chatbot-body input {
+    width: calc(100% - 50px);
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .chatbot-body button {
+    width: 40%;
+    height: 30px;
+    padding: 5px 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chatbot-body button:hover {
+    background: #0056b3;
+  }
+  
+  .chatbot-hidden {
+    transform: translateY(80%);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .chatbot-toggle {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 70px;
+    width: 90px;
+    height: 40px;
+  }
+  
+  .chatbot-visible {
+    transform: translateY(0);
+  }
+  
+
+
+  /*  COMENTARIOS  */
+
+  .iframe-contenedor {
+    position: relative;
+  }
+  
+
+  
+  .comment-section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #responseText{
+    width: 50%;
+    text-align:justify;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .comment-section textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .comment-section button {
+    display: block;
+    width: 40%;
+    margin: 10px 0 0;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .comment-section button:hover {
+    background: #0056b3;
+  }
+  
+
+
+
+  /* RATING*/
+
+  .rating {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .rating-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .rating-star {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+    background-color: #ddd; /* Color de fondo para la estrella */
+    overflow: hidden;
+  }
+  
+  .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f1c40f; /* Color de la estrella */
+    transform-origin: left;
+    transition: width 1s linear; /* Animación para el progreso */
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Tamaño del texto de la puntuación */
+    font-weight: bold;
+    color: #333; /* Color del texto */
+  }
+  
