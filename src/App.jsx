@@ -16,8 +16,8 @@ function App() {
   const apiKey = 'AIzaSyCE-3NqsTFZtULkIkWNhVYfNKv8tnM7BC0'; // key gemini
   const genAI = new GoogleGenerativeAI(apiKey);
 
-  const [session, setSession] = useState(true);
-  const [formularioRegistro, setFormularioRegistro] = useState(false);
+  const [session, setSession] = useState(false);
+  const [formularioRegistro, setFormularioRegistro] = useState(true);
   const [formData, setFormData] = useState({
     usuario: '',
     email: '',
